@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZLMTabBarConteroller.h
 //  TaobaoTabbar_OC_Demo
 //
 //  Created by 赵黎明 on 2017/3/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZLMTabBarConteroller : UITabBarController
 
 @end
-

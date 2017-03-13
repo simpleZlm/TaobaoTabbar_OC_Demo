@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		D01D77CC1E76BF370056C3D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D77CB1E76BF370056C3D9 /* main.m */; };
 		D01D77CF1E76BF370056C3D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D77CE1E76BF370056C3D9 /* AppDelegate.m */; };
-		D01D77D21E76BF370056C3D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D77D11E76BF370056C3D9 /* ViewController.m */; };
-		D01D77D51E76BF370056C3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01D77D31E76BF370056C3D9 /* Main.storyboard */; };
 		D01D77D71E76BF370056C3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01D77D61E76BF370056C3D9 /* Assets.xcassets */; };
 		D01D77DA1E76BF370056C3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01D77D81E76BF370056C3D9 /* LaunchScreen.storyboard */; };
 		D01D77E51E76BF370056C3D9 /* TaobaoTabbar_OC_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D77E41E76BF370056C3D9 /* TaobaoTabbar_OC_DemoTests.m */; };
 		D01D77F01E76BF380056C3D9 /* TaobaoTabbar_OC_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D77EF1E76BF380056C3D9 /* TaobaoTabbar_OC_DemoUITests.m */; };
+		D01D77FE1E76BF580056C3D9 /* like.caf in Resources */ = {isa = PBXBuildFile; fileRef = D01D77FD1E76BF580056C3D9 /* like.caf */; };
+		D01D78071E76C09A0056C3D9 /* ZLMTabBarConteroller.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D78061E76C09A0056C3D9 /* ZLMTabBarConteroller.m */; };
+		D01D780A1E76C1A00056C3D9 /* ZLMCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D78091E76C1A00056C3D9 /* ZLMCategoryController.m */; };
+		D01D780D1E76C1B40056C3D9 /* ZLMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D780C1E76C1B40056C3D9 /* ZLMHomeViewController.m */; };
+		D01D78101E76C1E70056C3D9 /* ZLMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D780F1E76C1E70056C3D9 /* ZLMMineViewController.m */; };
+		D01D78131E76C1F80056C3D9 /* ZLMSaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D78121E76C1F80056C3D9 /* ZLMSaleViewController.m */; };
+		D01D78161E76C20A0056C3D9 /* ZLMShoppingCartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D78151E76C20A0056C3D9 /* ZLMShoppingCartsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +44,6 @@
 		D01D77CB1E76BF370056C3D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D01D77CD1E76BF370056C3D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D01D77CE1E76BF370056C3D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D01D77D01E76BF370056C3D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D01D77D11E76BF370056C3D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D01D77D41E76BF370056C3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D01D77D61E76BF370056C3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01D77D91E76BF370056C3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01D77DB1E76BF370056C3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,19 @@
 		D01D77EB1E76BF370056C3D9 /* TaobaoTabbar_OC_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaobaoTabbar_OC_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01D77EF1E76BF380056C3D9 /* TaobaoTabbar_OC_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaobaoTabbar_OC_DemoUITests.m; sourceTree = "<group>"; };
 		D01D77F11E76BF380056C3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01D77FD1E76BF580056C3D9 /* like.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = like.caf; sourceTree = "<group>"; };
+		D01D78051E76C09A0056C3D9 /* ZLMTabBarConteroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMTabBarConteroller.h; sourceTree = "<group>"; };
+		D01D78061E76C09A0056C3D9 /* ZLMTabBarConteroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMTabBarConteroller.m; sourceTree = "<group>"; };
+		D01D78081E76C1A00056C3D9 /* ZLMCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMCategoryController.h; sourceTree = "<group>"; };
+		D01D78091E76C1A00056C3D9 /* ZLMCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMCategoryController.m; sourceTree = "<group>"; };
+		D01D780B1E76C1B40056C3D9 /* ZLMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMHomeViewController.h; sourceTree = "<group>"; };
+		D01D780C1E76C1B40056C3D9 /* ZLMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMHomeViewController.m; sourceTree = "<group>"; };
+		D01D780E1E76C1E70056C3D9 /* ZLMMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMMineViewController.h; sourceTree = "<group>"; };
+		D01D780F1E76C1E70056C3D9 /* ZLMMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMMineViewController.m; sourceTree = "<group>"; };
+		D01D78111E76C1F80056C3D9 /* ZLMSaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMSaleViewController.h; sourceTree = "<group>"; };
+		D01D78121E76C1F80056C3D9 /* ZLMSaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMSaleViewController.m; sourceTree = "<group>"; };
+		D01D78141E76C20A0056C3D9 /* ZLMShoppingCartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMShoppingCartsViewController.h; sourceTree = "<group>"; };
+		D01D78151E76C20A0056C3D9 /* ZLMShoppingCartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMShoppingCartsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +116,15 @@
 		D01D77C91E76BF370056C3D9 /* TaobaoTabbar_OC_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D01D78041E76C09A0056C3D9 /* ZLMTabBarController */,
+				D01D78001E76C09A0056C3D9 /* ZLMHomeViewController */,
+				D01D77FF1E76C09A0056C3D9 /* ZLMCategoryController */,
+				D01D78021E76C09A0056C3D9 /* ZLMSaleViewController */,
+				D01D78031E76C09A0056C3D9 /* ZLMShoppingCartsViewController */,
+				D01D78011E76C09A0056C3D9 /* ZLMMineViewController */,
+				D01D77FD1E76BF580056C3D9 /* like.caf */,
 				D01D77CD1E76BF370056C3D9 /* AppDelegate.h */,
 				D01D77CE1E76BF370056C3D9 /* AppDelegate.m */,
-				D01D77D01E76BF370056C3D9 /* ViewController.h */,
-				D01D77D11E76BF370056C3D9 /* ViewController.m */,
-				D01D77D31E76BF370056C3D9 /* Main.storyboard */,
 				D01D77D61E76BF370056C3D9 /* Assets.xcassets */,
 				D01D77D81E76BF370056C3D9 /* LaunchScreen.storyboard */,
 				D01D77DB1E76BF370056C3D9 /* Info.plist */,
@@ -138,6 +157,60 @@
 				D01D77F11E76BF380056C3D9 /* Info.plist */,
 			);
 			path = TaobaoTabbar_OC_DemoUITests;
+			sourceTree = "<group>";
+		};
+		D01D77FF1E76C09A0056C3D9 /* ZLMCategoryController */ = {
+			isa = PBXGroup;
+			children = (
+				D01D78081E76C1A00056C3D9 /* ZLMCategoryController.h */,
+				D01D78091E76C1A00056C3D9 /* ZLMCategoryController.m */,
+			);
+			path = ZLMCategoryController;
+			sourceTree = "<group>";
+		};
+		D01D78001E76C09A0056C3D9 /* ZLMHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01D780B1E76C1B40056C3D9 /* ZLMHomeViewController.h */,
+				D01D780C1E76C1B40056C3D9 /* ZLMHomeViewController.m */,
+			);
+			path = ZLMHomeViewController;
+			sourceTree = "<group>";
+		};
+		D01D78011E76C09A0056C3D9 /* ZLMMineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01D780E1E76C1E70056C3D9 /* ZLMMineViewController.h */,
+				D01D780F1E76C1E70056C3D9 /* ZLMMineViewController.m */,
+			);
+			path = ZLMMineViewController;
+			sourceTree = "<group>";
+		};
+		D01D78021E76C09A0056C3D9 /* ZLMSaleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01D78111E76C1F80056C3D9 /* ZLMSaleViewController.h */,
+				D01D78121E76C1F80056C3D9 /* ZLMSaleViewController.m */,
+			);
+			path = ZLMSaleViewController;
+			sourceTree = "<group>";
+		};
+		D01D78031E76C09A0056C3D9 /* ZLMShoppingCartsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01D78141E76C20A0056C3D9 /* ZLMShoppingCartsViewController.h */,
+				D01D78151E76C20A0056C3D9 /* ZLMShoppingCartsViewController.m */,
+			);
+			path = ZLMShoppingCartsViewController;
+			sourceTree = "<group>";
+		};
+		D01D78041E76C09A0056C3D9 /* ZLMTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D01D78051E76C09A0056C3D9 /* ZLMTabBarConteroller.h */,
+				D01D78061E76C09A0056C3D9 /* ZLMTabBarConteroller.m */,
+			);
+			path = ZLMTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +322,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01D77FE1E76BF580056C3D9 /* like.caf in Resources */,
 				D01D77DA1E76BF370056C3D9 /* LaunchScreen.storyboard in Resources */,
 				D01D77D71E76BF370056C3D9 /* Assets.xcassets in Resources */,
-				D01D77D51E76BF370056C3D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01D77D21E76BF370056C3D9 /* ViewController.m in Sources */,
+				D01D78071E76C09A0056C3D9 /* ZLMTabBarConteroller.m in Sources */,
+				D01D78131E76C1F80056C3D9 /* ZLMSaleViewController.m in Sources */,
 				D01D77CF1E76BF370056C3D9 /* AppDelegate.m in Sources */,
 				D01D77CC1E76BF370056C3D9 /* main.m in Sources */,
+				D01D78161E76C20A0056C3D9 /* ZLMShoppingCartsViewController.m in Sources */,
+				D01D780D1E76C1B40056C3D9 /* ZLMHomeViewController.m in Sources */,
+				D01D780A1E76C1A00056C3D9 /* ZLMCategoryController.m in Sources */,
+				D01D78101E76C1E70056C3D9 /* ZLMMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +392,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D01D77D31E76BF370056C3D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D01D77D41E76BF370056C3D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D01D77D81E76BF370056C3D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
